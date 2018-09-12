@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: kfRxdbqTiMRomE0GFOnfNWioMEOsg8zx1IZnsjyoFC6e9XyGSMeQfiObcvQboGQ0+cAwutSXgxxN2Eby8AtqvqFvcTtBksaig1TxKrJqTd5PQoa68Z5eMaziUATOD5lDw/TTAigKfVi9zGTscoP28H9fd64YTkjZ4IzUGulwoWBg52gmkRKFpL5APKla60BemFmAb6VIAdPEH9KKwsi3LDavgHwGrSJKe1ldvqiTz5gop7wqh4XsRpMMG8g/no/lGKWd/1i5357nMA+Hc1orCv2MIbOTqxZkQ4VjGGX0Q6jQDDrVYMLa5Ve4bCmvSMqXXaC6gFPU98VaD/Yo3Nb7LR/+UxL3o9CqX93LQ2jp21kHeeuZXYC3NMBPWs9xx2skHrbDlF/flWOfbGiXhkVnEL8gc8AoQ6QSySqjqjozWZvnql+rqOMGEqZhSQmYPA91f0qe8dBdATuh+ST75Pgu7ZcizG/0yyyWZ/Q+dArL/3z4YOfW8yCCe0I12Hi9VUjL2OiFB+3hvnEChskfEcgNzixNsJT+jbUl0UKhlJYdZCXzaIUPwus/Xuol37UPo1pquSqaquUnWUwcMBXWbUpKZpn56xUx2yIhpXVM3EWzcWrjid8aZRPGdbBRzTGkdLKWb8SwObZGw+4zm///SKq8BTiLBLtJo0bnJQnsrufipn4=
+  app: radiant-earth-21853
+  on:
+    repo: jayrap24/wimp-client
