@@ -1,0 +1,56 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  .flex-item {
+    background: rgb(17, 17, 17);
+    padding: 20px;
+    width: 300px;
+    height: 390px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: 100;
+    font-size: 2.5em;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    border-radius: 5px;
+  }
+
+
+.videoContainer{
+    height: 40%;
+    width: 100%;
+    background: white;
+    color: red;
+}
+
+.info{
+    height: 50px;
+    width: 100%;
+    background: rgb(100, 100, 100);
+    color: red;
+    word-wrap: break-word;
+    font-size:10px;
+
+}
+
+.messageBoard{
+    height: 50%;
+    width: 100%;
+    background: rgb(67, 117, 109);
+    color: red;
+    word-wrap: break-word;
+}

@@ -5,20 +5,20 @@ import {Router, Route, browserHistory} from 'react-router';
 
 
 
-import Admin from './components/Admin';
-import Main from './components/Main';
-import Personal from './components/Personal';
-import SignIn from './components/SignIn';
+import AdminPage from './components/AdminPage';
+import MainPage from './components/MainPage';
+import PersonalPage from './components/PersonalPage';
+import SignInPage from './components/SignInPage';
 
 
 class App extends Component {
   render() {
     return (
       <Router history={browserHistory}>
-        <Route path={"admin"} component={Admin} />
-        <Route path={"main"} component={Main} />
-        <Route path={"personal"} component={Personal} />
-        <Route path={"/"} component={SignIn} />
+          <Route path={"admin"} component={AdminPage} />
+          <Route path={"main"} component={MainPage} />
+          <Route path={"personal"} component={PersonalPage} />
+          <Route path={"/"} component={SignInPage} />
       </Router>
     );
   }
